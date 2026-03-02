@@ -1,2 +1,5 @@
-# building-unit-regression
-Creating a regression model that predicts the number of building units based on volume.
+# Building a Linear Regression Model for Number of Housing Units
+
+This repository contains code that merges three different data sources: [Global Building Atlas](https://sat-io.earthengine.app/view/gba) building footprints, [California parcel data](https://egis-lacounty.hub.arcgis.com/documents/baaf8251bfb94d3984fb58cb5fd93258/about), and individual household data provided through the capstone client (referred to here as "Zillow data"). It then uses available data on number of housing units to create a linear regression that then predicts this information for observations for where it is missing.
+
+The analysis is part of a larger capstone project for the [Master of Environmental Data Science program](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) at the Bren School of Environmental Science & Management. More information on the project can be found on the [Bren website](https://bren.ucsb.edu/projects/power-lines-and-people-mapping-how-distribution-grid-constraints-shape-resilient-and).
